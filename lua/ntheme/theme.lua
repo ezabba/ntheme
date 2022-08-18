@@ -1,12 +1,12 @@
-local util = require("tokyonight.util")
-local colors = require("tokyonight.colors")
+local util = require("ntheme.util")
+local colors = require("ntheme.colors")
 
 local M = {}
 
 ---@param config Config
 ---@return Theme
 function M.setup(config)
-  config = config or require("tokyonight.config")
+  config = config or require("ntheme.config")
 
   ---@class Theme
   local theme = {}
