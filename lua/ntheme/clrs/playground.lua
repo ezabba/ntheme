@@ -77,3 +77,4 @@ colors.warning = colors.yellow
 colors.info = colors.blue2
 colors.hint = colors.teal
 
+return colors
